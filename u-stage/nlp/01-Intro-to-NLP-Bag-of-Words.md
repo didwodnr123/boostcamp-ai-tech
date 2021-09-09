@@ -1,5 +1,7 @@
 # Day1) Intro to NLP, Bag-of-Words
 
+
+
 ## 0. NaiveBayes Classifier for Document Classification
 
 <img src='../../assets/images/nlp-01-01.png' width='50%'>
