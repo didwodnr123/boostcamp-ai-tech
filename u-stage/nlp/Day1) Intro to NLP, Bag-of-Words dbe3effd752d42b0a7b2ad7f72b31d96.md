@@ -2,7 +2,7 @@
 
 ## 0. NaiveBayes Classifier for Document Classification
 
-![Screen Shot 2021-09-06 at 8.47.09 PM.png](Day1)%20Intro%20to%20NLP,%20Bag-of-Words%20dbe3effd752d42b0a7b2ad7f72b31d96/Screen_Shot_2021-09-06_at_8.47.09_PM.png)
+<img src='/Users/yangjaeug/Desktop/GitHub/boostcamp-ai-tech/assets/images/Screen_Shot_2021-09-06_at_8.35.42_PM.png' width='50%'>
 
 위 식을 이해하려면 베이즈 정리에 대해 이해해야 한다. [여기](https://angeloyeo.github.io/2020/01/09/Bayes_rule.html)를 보자.
 
