@@ -2,13 +2,13 @@
 
 ## 0. NaiveBayes Classifier for Document Classification
 
-<img src='../../assets/images/Screen_Shot_2021-09-06_at_8.35.42_PM.png' width='50%'>
+<img src='../../assets/images/nlp-01-01.png' width='50%'>
 
 위 식을 이해하려면 베이즈 정리에 대해 이해해야 한다. [여기](https://angeloyeo.github.io/2020/01/09/Bayes_rule.html)를 보자.
 
-![Screen Shot 2021-09-06 at 8.50.51 PM.png](Day1)%20Intro%20to%20NLP,%20Bag-of-Words%20dbe3effd752d42b0a7b2ad7f72b31d96/Screen_Shot_2021-09-06_at_8.50.51_PM.png)
+<img src='../../assets/images/nlp-01-02.png' width='50%'>
 
-![Screen Shot 2021-09-06 at 8.51.39 PM.png](Day1)%20Intro%20to%20NLP,%20Bag-of-Words%20dbe3effd752d42b0a7b2ad7f72b31d96/Screen_Shot_2021-09-06_at_8.51.39_PM.png)
+<img src='../../assets/images/nlp-01-03.png' width='50%'>
 
 ## 1. Word Embedding
 
@@ -44,7 +44,7 @@ e.g. Apple = [3.8, 1.2, 0.3, -3.2, ... ]
 
 앞서 one-hot encoding 방법은 단어 간 유사도를 계산할 수 없다는 단점이 있다. 따라서 단어 간 유사도를 반영할 수 있도록 단어의 의미를 벡터화 할 수 있는 방법이 필요했고 이를 위해서 사용되는 대표적인 방법이 `Word2Vec` 이다.
 
-![Untitled](Day1)%20Intro%20to%20NLP,%20Bag-of-Words%20dbe3effd752d42b0a7b2ad7f72b31d96/Untitled.png)
+<img src='../../assets/images/nlp-01-04.png' width='50%'>
 
 [http://w.elnn.kr/search/](http://w.elnn.kr/search/)
 
@@ -62,7 +62,7 @@ Word2Vec에는 CBOW와 Skip-Gram 두 가지 방식이 있다. `CBOW`는 주변�
 
 중심 단어를 예측하기 위해서 앞, 뒤로 몇 개의 단어를 볼지를 결정했다면 이 범위를 윈도우(window)라고 한다. 아래 이미지는 `window_size = 2` 이다.
 
-![Screen Shot 2021-09-06 at 8.35.42 PM.png](Day1)%20Intro%20to%20NLP,%20Bag-of-Words%20dbe3effd752d42b0a7b2ad7f72b31d96/Screen_Shot_2021-09-06_at_8.35.42_PM.png)
+<img src='../../assets/images/nlp-01-05.png' width='50%'>
 
 윈도우를 계속 움직여서 주변 단어와 중심 단어 선택을 바꿔가며 학습을 위한 데이터 셋을 만드는 것을 `Sliding window` 라고 한다.
 
@@ -97,6 +97,8 @@ class CBOWDataset(Dataset):
     return self.x[idx], self.y[idx]
 ```
 
+
+
 ```python
 class SkipGramDataset(Dataset):
   def __init__(self, train_tokenized, window_size=2):
@@ -120,6 +122,8 @@ class SkipGramDataset(Dataset):
     return self.x[idx], self.y[idx]
 ```
 
+
+
 ```python
 cbow_set = CBOWDataset(train_tokenized)
 skipgram_set = SkipGramDataset(train_tokenized)
@@ -127,7 +131,7 @@ print(list(cbow_set))
 print(list(skipgram_set))
 ```
 
-![Screen Shot 2021-09-08 at 9.04.47 PM.png](Day1)%20Intro%20to%20NLP,%20Bag-of-Words%20dbe3effd752d42b0a7b2ad7f72b31d96/Screen_Shot_2021-09-08_at_9.04.47_PM.png)
+<img src='../../assets/images/nlp-01-06.png' width='50%'>
 
 ## 3. GloVe
 
