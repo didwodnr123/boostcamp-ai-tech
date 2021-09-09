@@ -4,13 +4,13 @@
 
 ## 0. NaiveBayes Classifier for Document Classification
 
-<img src='../../assets/images/nlp-01-01.png' width='50%'>
+<img src='../../assets/images/nlp-01-01.png'>
 
 위 식을 이해하려면 베이즈 정리에 대해 이해해야 한다. [여기](https://angeloyeo.github.io/2020/01/09/Bayes_rule.html)를 보자.
 
-<img src='../../assets/images/nlp-01-02.png' width='50%'>
+<img src='../../assets/images/nlp-01-02.png'>
 
-<img src='../../assets/images/nlp-01-03.png' width='50%'>
+<img src='../../assets/images/nlp-01-03.png'>
 
 ## 1. Word Embedding
 
