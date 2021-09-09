@@ -24,5 +24,16 @@
 ## About the Project
 
 - 국내 최고 수준의 AI 엔진과 서비스 개발 경험을 가진 업스테이지와 교수진 및 강사진 분들께 받는 최상위 AI 교육과정
-- 6개월간 풀타임으로 진행
+- 5개월간 풀타임으로 진행
+
+
+
+## Path of Growth
+
+- AI Production의 End-to-End를 경험할 수 있다.
+- 5주간의 U Stage(이론) + 15주간의 P Stage(프로젝트 실습)으로 구성됨.
+
+<img src='assets/images/readme-01.png'>
+
+<img src='assets/images/readme-02.png'>
 
