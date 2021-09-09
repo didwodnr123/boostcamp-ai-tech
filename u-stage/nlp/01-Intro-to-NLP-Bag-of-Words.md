@@ -1,4 +1,4 @@
-### Day1) Intro to NLP, Bag-of-Words
+# Day1) Intro to NLP, Bag-of-Words
 
 ## 0. NaiveBayes Classifier for Document Classification
 
