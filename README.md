@@ -13,13 +13,13 @@
 
 ### Table of Contents
 
-1. [About the Project](about the project)
+1. [About the Project](#about-the-project)
 2. Path of Growth
 3. U Stage
 4. P Stage
 5. Instructors 
 
-<!-- about the project -->
+
 
 ## About the Project
 
