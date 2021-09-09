@@ -1,6 +1,4 @@
-# Day1) Intro to NLP, Bag-of-Words
-
-
+### Day1) Intro to NLP, Bag-of-Words
 
 ## 0. NaiveBayes Classifier for Document Classification
 
@@ -46,7 +44,7 @@ e.g. Apple = [3.8, 1.2, 0.3, -3.2, ... ]
 
 앞서 one-hot encoding 방법은 단어 간 유사도를 계산할 수 없다는 단점이 있다. 따라서 단어 간 유사도를 반영할 수 있도록 단어의 의미를 벡터화 할 수 있는 방법이 필요했고 이를 위해서 사용되는 대표적인 방법이 `Word2Vec` 이다.
 
-<img src='../../assets/images/nlp-01-04.png' width='50%'>
+<img src='../../assets/images/nlp-01-04.png'>
 
 [http://w.elnn.kr/search/](http://w.elnn.kr/search/)
 
@@ -64,7 +62,7 @@ Word2Vec에는 CBOW와 Skip-Gram 두 가지 방식이 있다. `CBOW`는 주변�
 
 중심 단어를 예측하기 위해서 앞, 뒤로 몇 개의 단어를 볼지를 결정했다면 이 범위를 윈도우(window)라고 한다. 아래 이미지는 `window_size = 2` 이다.
 
-<img src='../../assets/images/nlp-01-05.png' width='50%'>
+<img src='../../assets/images/nlp-01-05.png'>
 
 윈도우를 계속 움직여서 주변 단어와 중심 단어 선택을 바꿔가며 학습을 위한 데이터 셋을 만드는 것을 `Sliding window` 라고 한다.
 
