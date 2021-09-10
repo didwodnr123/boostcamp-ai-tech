@@ -19,7 +19,7 @@
 
 Suppose we read the word "cat"
 
-- What is the probability \mathrm{P}(\underline{\mathbf{w}} \mid \text { cat }) that we'll read the word `w` nearby?
+- What is the probability <img src="https://render.githubusercontent.com/render/math?math=\mathrm{P}(\underline{\mathbf{w}} \mid \text { cat })"> that we'll read the word `w` nearby?
 
 <img src='../../assets/images/nlp-02-01.png'>
 
