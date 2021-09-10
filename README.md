@@ -39,7 +39,7 @@
 
 <img src='assets/images/readme-02.png'>
 
-## U Stage
+## U Stage 
 
 - [Python Basics for AI]()
 
@@ -49,7 +49,7 @@
 
 - [Deep Learning Basics]()
 
-- [Natural Language Processing]()
+- [Natural Language Processing](./u-stage/nlp)
 
 
 
