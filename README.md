@@ -41,31 +41,31 @@
 
 ## U Stage
 
-[Python Basics for AI]()
+- [Python Basics for AI]()
 
-[Math for AI]()
+- [Math for AI]()
 
-[Pytorch for AI]()
+- [Pytorch for AI]()
 
-[Deep Learning Basics]()
+- [Deep Learning Basics]()
 
-[Natural Language Processing]()
+- [Natural Language Processing]()
 
 
 
 ## P Stage
 
-[Image Classification]()
+- [Image Classification]()
 
-[KLUE (Korean Language Understanding Evaluation)]()
+- [KLUE (Korean Language Understanding Evaluation)]()
 
-[MRC (Machine Reading Comprehension)]()
+- [MRC (Machine Reading Comprehension)]()
 
-[데이터 제작 - NLP]()
+- [데이터 제작 - NLP]()
 
-[모델 최적화]()
+- [모델 최적화]()
 
-[Product Serving]()
+- [Product Serving]()
 
 
 
