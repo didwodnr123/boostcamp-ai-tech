@@ -41,5 +41,5 @@ e.g. vector[queen] - vector[king] = vector[woman] - vector[man]
 
 <img src='../../assets/images/nlp-02-04.png'>
 
-![Screen Shot 2021-09-10 at 8.43.58 PM](../../assets/images/Screen Shot 2021-09-10 at 8.43.58 PM.png)
+![Screen Shot 2021-09-10 at 8.43.58 PM](../../assets/images/test.png)
 
