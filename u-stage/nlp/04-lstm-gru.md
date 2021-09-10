@@ -29,6 +29,12 @@ Cell state에 올라가 있는 값을 얼마나 지울지를 결정하는 gate�
 
 ![Screen Shot 2021-09-11 at 12.05.08 AM](../../assets/images/nlp-04-04.png)
 
+## GRU
+
+LSTM은 Cell State와 Hidden State 2개가 다음 time step으로 전달되는 반면, GRU는 두가지를 Hidden state로 통합하여 전달된다.
+
+![Screen Shot 2021-09-11 at 12.18.03 AM](../../assets/images/nlp-04-05.png)
+
 ## Summary
 
 - RNNs allow a lot of **flexibility** in architecture design
