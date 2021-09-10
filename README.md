@@ -14,10 +14,10 @@
 ### Table of Contents
 
 1. [About the Project](#about-the-project)
-2. Path of Growth
-3. U Stage
-4. P Stage
-5. Instructors 
+2. [Path of Growth](#path-of-growth)
+3. [U Stage](#u-stage)
+4. [P Stage](#p-stage)
+5. [Instructors](#instructors)
 
 
 
@@ -36,4 +36,10 @@
 <img src='assets/images/readme-01.png'>
 
 <img src='assets/images/readme-02.png'>
+
+## U Stage
+
+## P Stage
+
+## Instructors
 
